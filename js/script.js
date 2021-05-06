@@ -21,23 +21,29 @@ formElement.addEventListener("submit", (event) => {
   let rateChf = rateChfElement.value;
   let selectedCurrency = selectedCurrencyElement.value;
   let exchange = 0;
+  let currencyName = "";
 
   switch (selectedCurrency) {
     case "EUR":
       exchange = amountPln / rateEur;
+      currencyName = "EUR";
       break;
     case "USD":
       exchange = amountPln / rateUsd;
+      currencyName = "USD";
       break;
     case "GBP":
       exchange = amountPln / rateGbp;
+      currencyName = "GBP";
       break;
     case "CHF":
       exchange = amountPln / rateChf;
+      currencyName = "CHF";
       break;
     default:
       console.log("Coś poszło nie tak!");
+      currencyName = "";
       break;
   }
-  exchangeElement.innerText = exchange.toFixed(2) + "zł";
+  exchangeElement.innerText = exchange.toFixed(2) + " " + currencyName;
 });
