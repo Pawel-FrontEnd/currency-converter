@@ -1,4 +1,6 @@
-console.log("Cześć Developerzy!");
+function message() {
+  console.log("Cześć Developerzy!");
+}
 
 let amountPlnElement = document.querySelector(".js-amountPln");
 let rateEurElement = document.querySelector(".js-rateEur");
