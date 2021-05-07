@@ -25,7 +25,7 @@ html {
 }
 
 .header__background {
-  background-color: hsl(194, 36%, 47%);
+  background-color: hsl(194deg, 72%, 32%);
   border-radius: 5px;
 }
 
@@ -43,7 +43,7 @@ html {
 }
 
 .footer {
-  background-color: hsl(194, 36%, 47%);
+  background-color: hsl(194deg, 72%, 32%);
   padding: 10px;
   text-align: center;
   color: white;

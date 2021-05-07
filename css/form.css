@@ -25,7 +25,7 @@
 
 .form__button {
   border: none;
-  background-color: hsl(194, 36%, 57%);
+  background-color: hsl(194deg, 72%, 32%);
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -40,14 +40,14 @@
 }
 
 .form__fieldset {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: 20px;
   border-radius: 5px;
   margin: 20px 0;
 }
 
 .form__legend {
-  background-color: hsl(194, 36%, 57%);
+  background-color: hsl(194deg, 72%, 32%);
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -56,4 +56,5 @@
 
 .form__resultText {
   color: #FFF;
+  padding: 10px 0px;
 }
