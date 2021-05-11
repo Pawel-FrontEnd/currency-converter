@@ -1,3 +1,4 @@
+{
 function message() {
   console.log("Cześć Developerzy!");
 }
@@ -47,3 +48,11 @@ formElement.addEventListener("submit", (event) => {
   }
   exchangeElement.innerText = exchange.toFixed(2) + " " + currencyName;
 });
+
+formElement.addEventListener("reset", () => {
+  exchangeElement.innerText = "N/A";
+  console.log("resetowanie");
+});
+
+message();
+}
