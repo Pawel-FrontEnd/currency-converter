@@ -13,6 +13,6 @@ Click to preview: [Currency-conventer website](https://pawel-frontend.github.io/
 ## Used features:
 - Semantic HTML
 - CSS
-- ES6+ features
+- ES6+ using features(arrows, const, let)
 - BEM naming
 ## Author: Paweł Dardziński
