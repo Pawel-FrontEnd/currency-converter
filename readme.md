@@ -1,15 +1,18 @@
 # Paweł Dardziński - homepage
 ## Table of content:
-1. Project purpose
+1. Description
 2. Short review
 3. Demo
-4. Used features:
-## Project purpose
-The website was created as part of the YouCode course. There is some information about me on the website. The project is constantly being developed and will ultimately serve as my showcase.
+4. How to use
+5. Used features:
+## Description
+I created a simple currency converter. You can enter the PLN amount and select the type and currency to which you want to convert the PLN amount. There are currently 4 currencies available (EUR, USD, GBP, CHF). Each of them has its own conversion factor. The conversion rate of each currency can be edited. After pressing the "Convert" button, the amount is converted and displayed in the appropriate field at the bottom of the screen. Using the "Clear form" button, we clear the result and the entered amount.
 ## Short review
 ![homepage review](https://github.com/Pawel-FrontEnd/homepage/blob/main/images/view.PNG?raw=true)
 ## Demo:
 https://pawel-frontend.github.io/homepage/
+## How to use:
+![Gif demo](images/Currency-converter-demo.gif)
 ## Used features:
 - Semantic HTML
 - CSS
