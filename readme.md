@@ -10,7 +10,7 @@ I created a simple currency converter. You can enter the PLN amount and select t
 ## Short review
 ![homepage review](https://github.com/Pawel-FrontEnd/homepage/blob/main/images/view.PNG?raw=true)
 ## Demo:
-https://pawel-frontend.github.io/homepage/
+https://pawel-frontend.github.io/currency-converter/
 ## How to use:
 ![Gif demo](images/Currency-converter-demo.gif)
 ## Used features:
