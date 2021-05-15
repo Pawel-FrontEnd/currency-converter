@@ -49,8 +49,8 @@
     formElement.addEventListener("reset", () => {
       exchangeElement.innerText = "N/A";
     });
+    message();
   };
   
-  message();
   init();
 }
